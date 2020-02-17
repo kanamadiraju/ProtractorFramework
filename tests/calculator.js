@@ -54,7 +54,7 @@ describe('demo calculator test', function(){
          element(by.model('second')).sendKeys("3");
  
          element(by.buttonText('Go!')).click();
-         browser.sleep(3000);
+         browser.sleep(2000);
         
          let result = element(by.cssContainingText('.ng-binding','5'));
          
