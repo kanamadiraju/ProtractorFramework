@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="11.849">
+ <testsuite name="demo calculator test" timestamp="2020-02-17T15:15:12" hostname="localhost" time="11.849" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="demo calculator test" name="addition test" time="5.998" />
+  <testcase classname="demo calculator test" name="substraction test" time="5.841">
+   <failure type="toEqual" message="Expected &apos;3:15:22 PM&apos; to equal &apos;5&apos;."><![CDATA[Error: Failed expectation
+    at UserContext.<anonymous> (C:\Users\nkanamadi\Desktop\Protractor-Projects\tests\calculator.js:61:35)
+    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\nkanamadi\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>
